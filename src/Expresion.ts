@@ -21,7 +21,7 @@ export abstract class Expresion{
 
         }
         else if(contexto.expresion==(this.uno())){
-            contexto.valor = (1*this.multiplayer())
+            contexto.valor = (this.multiplayer())
            
         }
 

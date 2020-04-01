@@ -8,4 +8,4 @@ export class Contexto {
     public contexto(p_expresion : string) {
       this.expresion = p_expresion;
     }
-  }export default Contexto
+  } export default Contexto
