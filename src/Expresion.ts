@@ -8,21 +8,21 @@ export abstract class Expresion{
     public abstract multiplayer();
 
     public Interpretar(contexto : Contexto){
-        if(contexto.expresion.startsWith(this.nueve())){
-            contexto.valor = contexto.valor + (9*this.multiplayer())
+        if(contexto.expresion==(this.nueve())){
+            contexto.valor = (9*this.multiplayer())
 
         }
-        else if(contexto.expresion.startsWith(this.cuatro())){
-            contexto.valor = contexto.valor + (4*this.multiplayer())
+        else if(contexto.expresion==(this.cuatro())){
+            contexto.valor = (4*this.multiplayer())
 
         }
-        else if(contexto.expresion.startsWith(this.cinco())){
-            contexto.valor = contexto.valor + (5*this.multiplayer())
+        else if(contexto.expresion==(this.cinco())){
+            contexto.valor = (5*this.multiplayer())
 
         }
-        while(contexto.expresion.startsWith(this.uno())){
-            contexto.valor = contexto.valor + (1*this.multiplayer())
-
+        else if(contexto.expresion==(this.uno())){
+            contexto.valor = (1*this.multiplayer())
+           
         }
 
 

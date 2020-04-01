@@ -4,7 +4,7 @@ export class Contexto {
   
     constructor(){
     }
-  
+
     public contexto(p_expresion : string) {
       this.expresion = p_expresion;
     }
